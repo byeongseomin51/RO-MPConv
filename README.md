@@ -1,4 +1,4 @@
-# Rotation-Optimized Multiplexed Parallel Convolution and Parallel BSGS matrix-vector multiplication.       
+# Rotation-Optimized Multiplexed Parallel Convolution (RO-MPConv) and Parallel BSGS matrix-vector multiplication.       
 This is the supplementary implementation of 'Low-Latency Linear Transformations with Small Key Transmission for Private Neural Network on Homomorphic Encryption.'       
 
 Our implementation is based on [Lattigo v5](https://github.com/tuneinsight/lattigo/tree/v5.0.2), which is written in Go.
@@ -10,7 +10,7 @@ Since we use Lattigo library to run the code, our implementation's location is f
 ---
 
 ## Run
-You can run rotation optimized convolution test function as follows:     
+You can run RO-MPConv latency test as follows:     
 ```bash
 cd examples/rotopt/   
 go run . conv      
