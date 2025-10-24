@@ -1,4 +1,4 @@
-# Rotation-Optimized Multiplexed Parallel Convolution (RO-MPConv) and Parallel BSGS matrix-vector multiplication.       
+# Rotation-Optimized Multiplexed Parallel Convolution (RO-MPConv) and Parallel BSGS matrix-vector multiplication       
 This is the supplementary implementation of 'Low-Latency Linear Transformations with Small Key Transmission for Private Neural Network on Homomorphic Encryption.'       
 
 Our implementation is based on [Lattigo v5](https://github.com/tuneinsight/lattigo/tree/v5.0.2), which is written in Go.
